@@ -1,4 +1,3 @@
-<?php //include("../admin/dbinfo.inc.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>

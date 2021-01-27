@@ -713,11 +713,8 @@ font-size:8px;
 
 <div class="thumbnail">
 <h3>Last 24 hours of Madness</h3>
-<img src="http://www.mossgreengarden.co.nz/geonet/depth-magnitude-multiplot_day_0001.png" class="img-responsive" />
+<img src="http://114.23.164.65/geonet/depth-magnitude-multiplot_day_0001.png" class="img-responsive" />
 	<div class="caption">
-	<p>This image is in 2 parts:<br />
-    The upper part displays magnitude, coloured by depth.<br />
-    The lower part displays depth, coloured by magnitude.</p> 
 	<p><i>image by Mark</i></p>
 	</div>	
 </div>

@@ -145,7 +145,7 @@ http://quakesearch.geonet.org.nz/csv?bbox=163.60840,-49.18170,182.98828,-32.2871
 "http://quakesearch.geonet.org.nz/csv?startdate=".$start."&enddate=".$end."&minmag=".3."&maxmag=".8."&mindepth=".2."&maxdepth=".4 ;
 */
 
-$url="http://quakesearch.geonet.org.nz/csv?startdate=".$start."&enddate=".$end."&minmag=".$magmin."&maxmag=".$magmax."&mindepth=".$depthLower."&maxdepth=".$depthUpper;
+$url="https://quakesearch.geonet.org.nz/csv?startdate=".$start."&enddate=".$end."&minmag=".$magmin."&maxmag=".$magmax."&mindepth=".$depthLower."&maxdepth=".$depthUpper;
 
 if (($setbounds==1)&&($boundsv!="")) {
 	$bounds = str_replace(array('(',')',' '),'',$boundsv);
@@ -256,7 +256,7 @@ foreach($lines as $field)  {
 						$quakes[$ref]['m3']=$m2;
             
             
-            $link = "http://www.geonet.org.nz/quakes/region/newzealand/".$ref;
+            $link = "https://www.geonet.org.nz/quakes/region/newzealand/".$ref;
 
 
             $quakes[$ref]['name']=$ref;

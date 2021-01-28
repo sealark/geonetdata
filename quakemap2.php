@@ -89,7 +89,7 @@ $(function () {
  
       
 <?php // NOTE - you will need to get your own api key from https://console.developers.google.com ?>
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key="></script>      
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=YOURKEY"></script>      
  <?php
  
  function url_exists($url) {
